@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shop Cart</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="header">
+    <div class="container nav">
+      <h1> Shop</h1>
+      <button class="clear-btn" onclick="clearCart()">Clear Cart</button>
+    </div>
+  </header>
+
+  <div id="msg" class="msg" style="display:none"></div>
+
+  <main class="container main-layout">
+
+    <section class="products-section">
+      <h2>Products</h2>
+      <div id="products" class="products-grid"></div>
+    </section>
+
+    <section class="cart-section">
+      <h2>Your Cart</h2>
+      <div id="cart" class="cart-list"></div>
+      <p id="total" class="cart-total">Total: $0.00</p>
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
