@@ -17,10 +17,10 @@ One of the main challenges was managing the cart state dynamically using JavaScr
 This project is a simple e-commerce shopping cart web application developed for an Internet Programming course. It allows users to browse products, add items to a cart, update quantities, and manage their selections dynamically.
 The frontend is built using HTML, CSS, and JavaScript, focusing on DOM manipulation and event handling to provide real-time updates without page reloads. The backend uses Node.js and MySQL to handle product data and support basic server-side operations.
 Key features include:
-# Add/remove products from cart
-# Update item quantities dynamically
-# Real-time cart total calculation
-# Basic database integration for product storage
+### Add/remove products from cart
+### Update item quantities dynamically
+### Real-time cart total calculation
+### Basic database integration for product storage
 The project demonstrates core web development concepts such as client-server interaction, state management, and database connectivity, while keeping the implementation simple and beginner-friendly.
 ---
 
